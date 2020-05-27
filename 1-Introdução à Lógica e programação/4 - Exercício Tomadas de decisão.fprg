@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sciarbel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-24 12:26:29 "/>
+        <attribute name="created" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjQ7IjEyOjIwOjA0ICI7MzAzOA=="/>
+        <attribute name="edited" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjQ7IjEyOjI2OjI5ICI7MjszMTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="janeiro+fevereiro+marco+abril"/>
+            <if expression="media &gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; conquistou um b&#244;nus de 10%!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; conquistou um b&#244;nus de 3%!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

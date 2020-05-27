@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sciarbel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-24 04:48:31 "/>
+        <attribute name="created" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjQ7IjA0OjI4OjUyICI7MzA1MA=="/>
+        <attribute name="edited" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjQ7IjA0OjQ4OjMxICI7NDszMTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, multi" type="Integer" array="False" size=""/>
+            <assign variable="multi" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <input variable="numero"/>
+            <while expression="multi &lt;= limite">
+                <output expression="numero &amp; &quot; x &quot; &amp; multi &amp; &quot; = &quot; &amp; multi*numero" newline="True"/>
+                <assign variable="multi" expression="multi +1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

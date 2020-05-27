@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sciarbel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-24 12:20:00 "/>
+        <attribute name="created" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjM7IjEwOjMzOjI1ICI7MzA0Mg=="/>
+        <attribute name="edited" value="U2NpYXJiZWw7REVTS1RPUC0xMDVKUFFWOzIwMjAtMDUtMjQ7IjEyOjIwOjAwICI7MzszMTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, soma" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="soma" expression="nota1+nota2+nota3+nota4"/>
+            <assign variable="Media" expression="soma/4"/>
+            <output expression="soma" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
