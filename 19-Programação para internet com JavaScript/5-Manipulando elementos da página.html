@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="5.js"></script>
+  <title> Manipulando elementos da página</title>
+</head>
+
+<!-- Ex 6 -->
+
+<body onload="load()">
+
+  <h1> Manipulando elementos da página</h1>
+
+  <!-- ex 1 -->
+  <button type="button" onclick="clickado()">Submit</button>
+  <br>
+
+  <br>
+
+
+  <!-- ex 2  -->
+  <button type="button" onclick="clickou()">Submit</button>
+  <p id="clickou"></p>
+  <br>
+
+
+  <!-- ex 3  -->
+  <button type="button" onclick="redirect()">Global Labs</button>
+
+
+  <!-- ex 4  -->
+  <p id="onmouse" onmousemove="trocar()" onmouseout="voltar()">Passe o mouse (teste 1)</p>
+
+
+  <!-- ex 5  -->
+  <p onmouseover="trocar2(this)" onmouseout="voltar2(this)">Passe o mouse (teste 2)</p>
+
+
+  <!-- ex 7 -->
+  <select onchange="change(this)">
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+  </select>
+
+</body>
+
+</html>

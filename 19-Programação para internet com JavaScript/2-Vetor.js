@@ -14,7 +14,7 @@ console.log(lista);
 
 // inverte a ordem dos itens do array
 // console.log(lista.reverse());
-console.log(lista.toString()[0]);
+console.log(lista.toString());
 
 // define símbolo de separação entre os itens do array e os converte para string
 console.log(lista.join(" | "));
